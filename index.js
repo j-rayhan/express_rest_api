@@ -66,12 +66,12 @@ app.all('*', (req, res, next) => {
 app.use(handleGlobalError);
 
 // perform a database connection when the server starts
-db.connectToServer(function (err) {
+db.connectToMongoDB(function (err) {
   if (err) {
     console.error(err);
     process.exit();
   }
-  app.db = db.getDb();
+
   // start the Express server
   app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`);
