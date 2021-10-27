@@ -1,5 +1,6 @@
 const { ObjectId } = require('mongodb');
 //
+const Person = require('../models/person');
 const { catchAsync } = require('../utils/helpers');
 const APIFeatures = require('../utils/apIFeatures');
 const { COLLECTIONS } = require('../utils/constant');
@@ -26,13 +27,13 @@ exports.checkId = catchAsync(async (req, res, next) => {
 });
 
 exports.list = catchAsync(async (req, res, next) => {
-  const _persons = req.app.db.collection(persons);
-  const features = new APIFeatures(_persons, req.query)
-    .filter()
-    .sort()
-    .limitFields()
-    .paginate();
-  const _result = await features.query.toArray();
+  // const _persons = req.app.db.collection(persons);
+  // const features = new APIFeatures(_persons, req.query)
+  //   .filter()
+  //   .sort()
+  //   .limitFields()
+  //   .paginate();
+  const _result = await Person.find().limit(5);
   res.json(_result);
 });
 
