@@ -1,16 +1,16 @@
-const {STATUS} = require('./constant')
+const { STATUS } = require('./constant');
 
 class AppError extends Error {
-    constructor(message, statusCode){
-        super(message);
+  constructor(message, statusCode) {
+    super(message);
 
-        this.statusCode = statusCode || 500
-        this.status = `${statusCode}`.startsWith('4') ? STATUS.FAIL : STATUS.ERROR
-        // handle production error 
-        this.isOperational = true
+    this.statusCode = statusCode || 500;
+    this.status = `${statusCode}`.startsWith('4') ? STATUS.FAIL : STATUS.ERROR;
+    // handle production error
+    this.isOperational = true;
 
-        Error.captureStackTrace(this, this.constructor)
-    }
+    Error.captureStackTrace(this, this.constructor);
+  }
 }
 
 module.exports = AppError;

@@ -1,18 +1,19 @@
-const mongoose = require('mongoose')
-const uri = process.env.DB_URI
+const mongoose = require('mongoose');
+
+const uri = process.env.DB_URI;
 
 module.exports = {
-  connectToMongoDB: async function (callback) {
+  async connectToMongoDB(callback) {
     try {
       await mongoose.connect(uri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-      })
-      console.log('Connected to DB !!')
-      return callback()
+      });
+      // eslint-disable-next-line no-console
+      console.log('Connected to DB !!');
+      return callback();
     } catch (e) {
-      console.log('DB connection error', e)
-      return callback(e)
+      return callback(e);
     }
   },
-}
+};

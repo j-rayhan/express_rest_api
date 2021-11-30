@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Porsche Cruze",
+    "manufacturer": "Chevrolet",
+    "model": "Model T",
+    "vin": "N18E7L728TWJ74591",
+    "fuel": "Hybrid",
+    "type": "Passenger Van"
+  },
+  {
+    "name": "Mercedes Benz Model T",
+    "manufacturer": "Polestar",
+    "model": "Focus",
+    "vin": "NHNLE9ZB8FRG92750",
+    "fuel": "Hybrid",
+    "type": "Coupe"
+  },
+  {
+    "name": "Mini ATS",
+    "manufacturer": "Jaguar",
+    "model": "Malibu",
+    "vin": "F25BPT8987B083441",
+    "fuel": "Electric",
+    "type": "Coupe"
+  },
+  {
+    "name": "Volvo Colorado",
+    "manufacturer": "Mercedes Benz",
+    "model": "Cruze",
+    "vin": "05BDF37TN2GD52798",
+    "fuel": "Gasoline",
+    "type": "Convertible"
+  },
+  {
+    "name": "Jaguar Land Cruiser",
+    "manufacturer": "Fiat",
+    "model": "ATS",
+    "vin": "ZBEZ97C4Y5SG99189",
+    "fuel": "Electric",
+    "type": "Crew Cab Pickup"
+  },
+  {
+    "name": "Ferrari Accord",
+    "manufacturer": "BMW",
+    "model": "Explorer",
+    "vin": "WL8FXJLJASHB29017",
+    "fuel": "Diesel",
+    "type": "Extended Cab Pickup"
+  },
+  {
+    "name": "Chrysler Roadster",
+    "manufacturer": "Volvo",
+    "model": "El Camino",
+    "vin": "BN4TMN285TB726934",
+    "fuel": "Diesel",
+    "type": "Passenger Van"
+  },
+  {
+    "name": "Toyota Challenger",
+    "manufacturer": "Dodge",
+    "model": "Grand Caravan",
+    "vin": "RRFYTAUPT1RT39488",
+    "fuel": "Diesel",
+    "type": "Sedan"
+  },
+  {
+    "name": "Ferrari Colorado",
+    "manufacturer": "Mercedes Benz",
+    "model": "Sentra",
+    "vin": "T52WXHP0GXRC19322",
+    "fuel": "Gasoline",
+    "type": "Crew Cab Pickup"
+  },
+  {
+    "name": "Polestar Challenger",
+    "manufacturer": "Jaguar",
+    "model": "Ranchero",
+    "vin": "M86S5PBGVREL31875",
+    "fuel": "Electric",
+    "type": "Wagon"
+  },
+  {
+    "name": "Kia Grand Caravan",
+    "manufacturer": "Volvo",
+    "model": "CX-9",
+    "vin": "62X6D4YRFDR728733",
+    "fuel": "Gasoline",
+    "type": "Wagon"
+  },
+  {
+    "name": "Jaguar CTS",
+    "manufacturer": "Toyota",
+    "model": "Grand Cherokee",
+    "vin": "VRJEXEULURE744258",
+    "fuel": "Diesel",
+    "type": "Minivan"
+  },
+  {
+    "name": "Tesla A8",
+    "manufacturer": "Lamborghini",
+    "model": "Spyder",
+    "vin": "PAYF7UCUGWVY25484",
+    "fuel": "Electric",
+    "type": "Crew Cab Pickup"
+  },
+  {
+    "name": "Chevrolet Altima",
+    "manufacturer": "Mercedes Benz",
+    "model": "LeBaron",
+    "vin": "LCZSUXRC3SXH68023",
+    "fuel": "Hybrid",
+    "type": "Cargo Van"
+  },
+  {
+    "name": "Mazda 911",
+    "manufacturer": "Bugatti",
+    "model": "Aventador",
+    "vin": "AG7P40NTZEW282678",
+    "fuel": "Electric",
+    "type": "Coupe"
+  },
+  {
+    "name": "Toyota Model 3",
+    "manufacturer": "Land Rover",
+    "model": "Golf",
+    "vin": "PWCFU5L8TAXX24727",
+    "fuel": "Gasoline",
+    "type": "Extended Cab Pickup"
+  },
+  {
+    "name": "Maserati Accord",
+    "manufacturer": "Rolls Royce",
+    "model": "Sentra",
+    "vin": "JFZLNZBRKNG286201",
+    "fuel": "Diesel",
+    "type": "Extended Cab Pickup"
+  },
+  {
+    "name": "Dodge Fortwo",
+    "manufacturer": "Tesla",
+    "model": "Grand Caravan",
+    "vin": "Y0JWJJZ3KWVF68485",
+    "fuel": "Electric",
+    "type": "Convertible"
+  },
+  {
+    "name": "Audi Volt",
+    "manufacturer": "Polestar",
+    "model": "Prius",
+    "vin": "BET4SK1THFXK22070",
+    "fuel": "Electric",
+    "type": "Crew Cab Pickup"
+  },
+  {
+    "name": "Mercedes Benz Mustang",
+    "manufacturer": "Kia",
+    "model": "LeBaron",
+    "vin": "9VF8SHN9NYYY53629",
+    "fuel": "Hybrid",
+    "type": "SUV"
+  },
+  {
+    "name": "Bentley 911",
+    "manufacturer": "Aston Martin",
+    "model": "A4",
+    "vin": "YSHMVH8KV4S454980",
+    "fuel": "Gasoline",
+    "type": "Convertible"
+  },
+  {
+    "name": "Mazda Spyder",
+    "manufacturer": "Dodge",
+    "model": "1",
+    "vin": "J44E5RZ4SDUK48586",
+    "fuel": "Electric",
+    "type": "Coupe"
+  },
+  {
+    "name": "Polestar Camry",
+    "manufacturer": "Volkswagen",
+    "model": "Challenger",
+    "vin": "E7PGDPVUXAB466273",
+    "fuel": "Hybrid",
+    "type": "Minivan"
+  },
+  {
+    "name": "Porsche Element",
+    "manufacturer": "Porsche",
+    "model": "Grand Caravan",
+    "vin": "HXCFEEHR5LDN15826",
+    "fuel": "Hybrid",
+    "type": "Crew Cab Pickup"
+  },
+  {
+    "name": "Hyundai Model S",
+    "manufacturer": "Cadillac",
+    "model": "Jetta",
+    "vin": "B18659Y0H6C265713",
+    "fuel": "Diesel",
+    "type": "Wagon"
+  },
+  {
+    "name": "Toyota Mustang",
+    "manufacturer": "Bugatti",
+    "model": "Malibu",
+    "vin": "LTZX2L3SHBTR31306",
+    "fuel": "Electric",
+    "type": "Extended Cab Pickup"
+  },
+  {
+    "name": "Fiat Beetle",
+    "manufacturer": "Land Rover",
+    "model": "Camry",
+    "vin": "DGBZDAWA0HED16599",
+    "fuel": "Diesel",
+    "type": "SUV"
+  },
+  {
+    "name": "Land Rover Aventador",
+    "manufacturer": "BMW",
+    "model": "Silverado",
+    "vin": "CTJZD1VCMNY413090",
+    "fuel": "Gasoline",
+    "type": "SUV"
+  },
+  {
+    "name": "BMW Focus",
+    "manufacturer": "Maserati",
+    "model": "Malibu",
+    "vin": "MBL53GARP7VZ26261",
+    "fuel": "Hybrid",
+    "type": "Wagon"
+  },
+  {
+    "name": "Bentley Charger",
+    "manufacturer": "BMW",
+    "model": "Countach",
+    "vin": "5BZ3LW73THGV58680",
+    "fuel": "Electric",
+    "type": "Coupe"
+  },
+  {
+    "name": "Land Rover Golf",
+    "manufacturer": "Volvo",
+    "model": "El Camino",
+    "vin": "1RY0RE0HEAD496231",
+    "fuel": "Gasoline",
+    "type": "Extended Cab Pickup"
+  },
+  {
+    "name": "Chevrolet Taurus",
+    "manufacturer": "Rolls Royce",
+    "model": "Roadster",
+    "vin": "14VTFJ9BF3V390873",
+    "fuel": "Gasoline",
+    "type": "Crew Cab Pickup"
+  }
+]

@@ -1,11 +1,13 @@
 const { Router } = require('express');
 //
-const person = require('./person');
+const tour = require('./tour');
+const employee = require('./employee');
 const auth = require('./auth');
 
 const routes = Router();
 
-routes.use('/persons', person);
+routes.use('/employees', employee);
+routes.use('/tours', tour);
 routes.use('/login', auth);
 
 module.exports = routes;
